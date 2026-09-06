@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="theme-color" content="#fff7f4">
+    <title>Búlka — выбрать зал для съёмки в Бресте</title>
+    <meta name="description" content="Демонстрационная концепция выбора зала фотостудии Búlka в Бресте с переходом к бронированию.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Búlka — выбрать зал для съёмки">
+    <meta property="og:description" content="Демонстрационная концепция интерфейса выбора зала и бронирования.">
+    <meta property="og:image" content="og-image.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-room="bulka">
+    <a class="skip-link" href="#content">К содержимому</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#rooms" aria-label="Búlka — к выбору зала">
+        <span aria-hidden="true">Bú</span>lka<span class="wordmark-dot" aria-hidden="true">•</span>
+      </a>
+      <nav aria-label="Навигация по странице">
+        <a href="#how">Как выбрать</a>
+        <a href="#places">Локации</a>
+      </nav>
+      <a class="header-book" href="https://n714937.yclients.com/" target="_blank" rel="noreferrer">Бронировать <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="rooms" aria-labelledby="hero-title">
+        <div class="hero-wash" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Фотостудия Búlka · Брест</p>
+          <h1 id="hero-title">Выберите <em>свет</em><br>для своего кадра.</h1>
+          <p class="hero-intro">Четыре зала — один спокойный маршрут к бронированию. Переключайте сцену, чтобы почувствовать её ритм.</p>
+
+          <div class="room-switch" role="group" aria-label="Выберите зал">
+            <button class="room-button is-active" type="button" data-room-choice="bulka" aria-pressed="true">
+              <span class="room-index">01</span><span>Булка</span><i aria-hidden="true"></i>
+            </button>
+            <button class="room-button" type="button" data-room-choice="brownie" aria-pressed="false">
+              <span class="room-index">02</span><span>Брауни</span><i aria-hidden="true"></i>
+            </button>
+            <button class="room-button" type="button" data-room-choice="eclair" aria-pressed="false">
+              <span class="room-index">03</span><span>Эклер</span><i aria-hidden="true"></i>
+            </button>
+            <button class="room-button" type="button" data-room-choice="baguette" aria-pressed="false">
+              <span class="room-index">04</span><span>Багет</span><i aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="hero-action">
+            <a id="booking-cta" class="button button-primary" href="https://n714937.yclients.com/" target="_blank" rel="noreferrer">Выбрать зал и забронировать <span aria-hidden="true">↗</span></a>
+            <p id="room-location" class="location-line">Зал «Булка» · Куйбышева 13а</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-live="polite">
+          <div class="scene-label">
+            <span>Сцена</span>
+            <strong id="scene-name">01 / Булка</strong>
+          </div>
+          <figure class="hero-photo-frame">
+            <img id="hero-photo" src="assets/bulka-portrait.jpg" alt="Портретный кадр из публичной витрины фотостудии Búlka" width="640" height="640">
+            <figcaption id="scene-caption">Светлая пауза · настроение концепта</figcaption>
+          </figure>
+          <div class="visual-note" id="visual-note">мягкий<br>дневной<br>ритм</div>
+          <div class="lightline" aria-hidden="true"><span></span></div>
+          <p class="visual-disclaimer">Кадр задаёт атмосферу концепта, а не описывает интерьер конкретного зала.</p>
+        </div>
+      </section>
+
+      <section class="choice-note" aria-labelledby="choice-title">
+        <p class="section-kicker">Без лишнего</p>
+        <div>
+          <h2 id="choice-title">Сначала настроение.<br>Потом — бронирование.</h2>
+          <p>На сайте нет выдуманного календаря: после выбора зала вы переходите на указанную в профиле Búlka страницу записи.</p>
+        </div>
+        <a class="text-link" href="https://n714937.yclients.com/" target="_blank" rel="noreferrer">Открыть запись <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="how" id="how" aria-labelledby="how-title">
+        <div class="how-heading">
+          <p class="section-kicker">Маршрут</p>
+          <h2 id="how-title">Один выбор —<br>один следующий шаг.</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span>01</span>
+            <h3>Сравните настроение</h3>
+            <p>Переключатель в начале страницы меняет цвет, кадр и тональность сцены.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <h3>Запомните локацию</h3>
+            <p>Для «Булки» в профиле указана Куйбышева 13а; для трёх других залов — Интернациональная 5а.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <h3>Перейдите к записи</h3>
+            <p>Кнопка ведёт на подтверждённую страницу Yclients, где детали и доступность следует уточнять при бронировании.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-title">
+          <p class="section-kicker">Витрина</p>
+          <h2 id="gallery-title">Мягкий свет,<br>живой кадр.</h2>
+          <p>Опубликованные материалы профиля сформировали палитру этой демонстрационной концепции.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--tall"><img src="assets/bulka-bedroom.jpg" alt="Светлый портретный кадр из публичной витрины Búlka" loading="lazy" width="640" height="640"></figure>
+          <figure class="gallery-item gallery-item--quote"><blockquote>«Выбор зала<br>может быть<br>ощущением»</blockquote><figcaption>визуальная идея демо</figcaption></figure>
+          <figure class="gallery-item"><img src="assets/bulka-studio.jpg" alt="Кадр студийного пространства из публичной витрины Búlka" loading="lazy" width="640" height="640"></figure>
+          <figure class="gallery-item gallery-item--small"><img src="assets/bulka-graphic.jpg" alt="Портретный кадр с розовыми графичными акцентами из публичной витрины Búlka" loading="lazy" width="640" height="640"></figure>
+        </div>
+      </section>
+
+      <section class="places" id="places" aria-labelledby="places-title">
+        <div class="places-intro">
+          <p class="section-kicker">Подтверждено в профиле</p>
+          <h2 id="places-title">Две точки<br>на карте Бреста.</h2>
+          <p>Адресные ориентиры перенесены из публичного описания профиля Búlka на дату проверки.</p>
+        </div>
+        <div class="place-list">
+          <article class="place-card">
+            <p class="place-label">Зал 01</p>
+            <h3>Булка</h3>
+            <p class="address">Куйбышева 13а</p>
+          </article>
+          <article class="place-card">
+            <p class="place-label">Залы 02–04</p>
+            <h3>Брауни · Эклер · Багет</h3>
+            <p class="address">Интернациональная 5а</p>
+          </article>
+        </div>
+        <p class="price-note">В профиле на 06.09.2026 указано: <strong>1 час — 65 BYN.</strong> Актуальные условия уточняются при записи.</p>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <p class="section-kicker">Búlka / Брест</p>
+        <h2 id="closing-title">Найдите свой<br><em>светлый угол.</em></h2>
+        <a class="button button-dark" href="https://n714937.yclients.com/" target="_blank" rel="noreferrer">Выбрать зал и забронировать <span aria-hidden="true">↗</span></a>
+        <a class="instagram-link" href="https://www.instagram.com/bulka.studio/" target="_blank" rel="noreferrer">@bulka.studio <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Демонстрационная концепция — не официальный сайт.</p>
+      <p>Временная версия · фото и детали требуют подтверждения владельца перед production.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
